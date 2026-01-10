@@ -7,11 +7,11 @@
           "title": "ستارة 1",
           "description": "ملف الستائر جاهز للتقطيع على الليزر",
           "format": "DXF",
-          "imageUrl": "https://github.com/ayoubbadou18-jpg/laser-designs/blob/cb0041ffff973a398f09378abdb49b5744969e3d/MODEL%201.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/files/MODEL%201.dxf"
+          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%201.jpg",
+          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%201.dxf"
         },
         {
-          "title": " ستارة 2",
+          "title": "ستارة 2",
           "description": "Wolf laser cutting art",
           "format": "SVG",
           "imageUrl": "https://i.imgur.com/0KFBHTB.jpg",
@@ -28,14 +28,16 @@
           "format": "DXF",
           "imageUrl": "https://i.imgur.com/3ZQ3Z5B.jpg",
           "downloadUrl": "https://example.com/islamic.dxf"
-      },
+        },
         {
-          "title": " ستارة 2",
-          "description": "Wolf laser cutting art",
+          "title": "ديكور 2",
+          "description": "Decor laser cutting art",
           "format": "SVG",
           "imageUrl": "https://i.imgur.com/0KFBHTB.jpg",
           "downloadUrl": "https://example.com/wolf.svg"
         }
       ]
-    },
-    {
+    }
+  ]
+}
+
