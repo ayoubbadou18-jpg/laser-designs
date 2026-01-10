@@ -1,0 +1,35 @@
+{
+  "categories": [
+    {
+      "name": "Animals",
+      "files": [
+        {
+          "title": "Lion Head",
+          "description": "Laser cut lion head design",
+          "format": "DXF",
+          "imageUrl": "https://i.imgur.com/6XKJv1R.jpg",
+          "downloadUrl": "https://example.com/lion.dxf"
+        },
+        {
+          "title": "Wolf",
+          "description": "Wolf laser cutting art",
+          "format": "SVG",
+          "imageUrl": "https://i.imgur.com/0KFBHTB.jpg",
+          "downloadUrl": "https://example.com/wolf.svg"
+        }
+      ]
+    },
+    {
+      "name": "Decor",
+      "files": [
+        {
+          "title": "Islamic Pattern",
+          "description": "Islamic geometric laser design",
+          "format": "DXF",
+          "imageUrl": "https://i.imgur.com/3ZQ3Z5B.jpg",
+          "downloadUrl": "https://example.com/islamic.dxf"
+        }
+      ]
+    }
+  ]
+}
