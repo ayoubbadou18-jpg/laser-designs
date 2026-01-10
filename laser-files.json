@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "name": "Animals",
+      "name": "ستائر",
       "files": [
         {
           "title": "ستارة 1",
@@ -11,7 +11,7 @@
           "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/files/MODEL%201.dxf"
         },
         {
-          "title": "Wolf",
+          "title": " ستارة 2",
           "description": "Wolf laser cutting art",
           "format": "SVG",
           "imageUrl": "https://i.imgur.com/0KFBHTB.jpg",
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "name": "Decor",
+      "name": "ديكورات",
       "files": [
         {
           "title": "Islamic Pattern",
@@ -28,8 +28,14 @@
           "format": "DXF",
           "imageUrl": "https://i.imgur.com/3ZQ3Z5B.jpg",
           "downloadUrl": "https://example.com/islamic.dxf"
+      },
+        {
+          "title": " ستارة 2",
+          "description": "Wolf laser cutting art",
+          "format": "SVG",
+          "imageUrl": "https://i.imgur.com/0KFBHTB.jpg",
+          "downloadUrl": "https://example.com/wolf.svg"
         }
       ]
-    }
-  ]
-}
+    },
+    {
