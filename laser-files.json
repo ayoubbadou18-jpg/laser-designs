@@ -4,11 +4,11 @@
       "name": "Animals",
       "files": [
         {
-          "title": "Lion Head",
-          "description": "Laser cut lion head design",
+          "title": "ستارة 1",
+          "description": "ملف الستائر جاهز للتقطيع على الليزر",
           "format": "DXF",
-          "imageUrl": "https://i.imgur.com/6XKJv1R.jpg",
-          "downloadUrl": "https://example.com/lion.dxf"
+          "imageUrl": "https://github.com/ayoubbadou18-jpg/laser-designs/blob/cb0041ffff973a398f09378abdb49b5744969e3d/MODEL%201.jpg",
+          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/files/MODEL%201.dxf"
         },
         {
           "title": "Wolf",
