@@ -1,6 +1,198 @@
 {
   "categories": [
     {
+      "name": "🏠 الصفحة الرئيسية",
+      "files": [
+        {
+          "title": "أحدث التصاميم المضافة",
+          "description": "سيتم عرض أحدث الملفات التي تمت إضافتها تلقائيًا",
+          "format": "AUTO",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": ""
+        },
+        {
+          "title": "التصاميم الأكثر تحميلًا",
+          "description": "سيتم ترتيب الملفات حسب عدد التحميلات",
+          "format": "AUTO",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": ""
+        },
+        {
+          "title": "تصاميم مميزة (مختارة)",
+          "description": "ملفات مختارة بعناية لتظهر في قسم مميز",
+          "format": "AUTO",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": ""
+        },
+        {
+          "title": "شريط بحث سريع",
+          "description": "ابحث عن تصميم بالاسم أو النوع أو الصيغة (DXF / SVG ...)",
+          "format": "SEARCH",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": ""
+        }
+      ]
+    },
+
+    {
+      "name": "📂 أقسام التصاميم (حسب الاستخدام)",
+      "files": [
+        {
+          "title": "تصاميم قص ليزر",
+          "description": "ملفات جاهزة للقص (Cut)",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": ""
+        },
+        {
+          "title": "تصاميم حفر ليزر",
+          "description": "ملفات مناسبة للحفر (Engrave)",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": ""
+        },
+        {
+          "title": "تصاميم MDF",
+          "description": "ملفات مناسبة لألواح MDF",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": ""
+        },
+        {
+          "title": "تصاميم خشب",
+          "description": "ملفات مناسبة للخشب الطبيعي",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": ""
+        },
+        {
+          "title": "تصاميم أكريليك",
+          "description": "ملفات مناسبة للأكريليك",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": ""
+        },
+        {
+          "title": "تصاميم جلد",
+          "description": "ملفات مناسبة للجلد",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": ""
+        },
+        {
+          "title": "تصاميم معدن",
+          "description": "ملفات مناسبة للمعدن (بحسب قدرة الماكينة)",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": ""
+        }
+      ]
+    },
+
+    {
+      "name": "📐 الأقسام حسب نوع المنتج",
+      "files": [
+        { "title": "لوحات وزخارف", "description": "تصاميم لوحات وزخارف جدارية", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "ساعات حائط", "description": "تصاميم ساعات حائط", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "علب وصناديق", "description": "تصاميم علب وصناديق", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "ديكور منزلي", "description": "ديكورات منزلية متنوعة", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "إكسسوارات", "description": "إكسسوارات وتصاميم صغيرة", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "هدايا شخصية", "description": "تصاميم هدايا باسم/تاريخ", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "أبواب ونوافذ زخرفية", "description": "أشكال زخرفية للأبواب والنوافذ", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "مجسمات ثلاثية الأبعاد (3D)", "description": "تصاميم مجسمات وتجميع طبقات", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
+      ]
+    },
+
+    {
+      "name": "🧩 حسب نوع الملف",
+      "files": [
+        { "title": "DXF", "description": "ملفات DXF", "format": "DXF", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "SVG", "description": "ملفات SVG", "format": "SVG", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "AI", "description": "ملفات Adobe Illustrator", "format": "AI", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "CDR", "description": "ملفات CorelDRAW", "format": "CDR", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "PDF", "description": "ملفات PDF", "format": "PDF", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "ملفات جاهزة للقص", "description": "ملفات Cut جاهزة", "format": "CUT_READY", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "ملفات قابلة للتعديل", "description": "ملفات يمكن تعديلها", "format": "EDITABLE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
+      ]
+    },
+
+    {
+      "name": "⚙️ إعدادات الليزر",
+      "files": [
+        { "title": "إعدادات القص (السرعة / القوة)", "description": "جدول إعدادات القص", "format": "GUIDE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "إعدادات الحفر", "description": "جدول إعدادات الحفر", "format": "GUIDE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "إعدادات حسب نوع الماكينة", "description": "CO2 / Fiber / Diode", "format": "GUIDE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "إعدادات حسب الخامة", "description": "خشب / MDF / أكريليك / جلد / معدن", "format": "GUIDE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "تجارب المستخدمين", "description": "نتائج وتجارب فعلية", "format": "COMMUNITY", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
+      ]
+    },
+
+    {
+      "name": "⭐ المفضلة",
+      "files": [
+        { "title": "حفظ التصاميم المفضلة", "description": "إضافة/إزالة من المفضلة", "format": "FEATURE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "الرجوع إليها بسهولة", "description": "قائمة مفضلاتك", "format": "FEATURE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
+      ]
+    },
+
+    {
+      "name": "⬇️ التحميلات",
+      "files": [
+        { "title": "الملفات التي تم تحميلها", "description": "سجل التحميلات", "format": "FEATURE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "إدارة الملفات المحفوظة", "description": "حذف/تنظيم/مشاركة", "format": "FEATURE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
+      ]
+    },
+
+    {
+      "name": "👥 مجتمع المستخدمين",
+      "files": [
+        { "title": "رفع تصاميم من المستخدمين", "description": "مشاركة تصاميمك", "format": "COMMUNITY", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "تقييم التصاميم", "description": "نجوم وتقييمات", "format": "COMMUNITY", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "تعليقات وملاحظات", "description": "نقاش حول التصميم", "format": "COMMUNITY", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "طلب تصاميم خاصة", "description": "اطلب تصميم حسب الطلب", "format": "COMMUNITY", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
+      ]
+    },
+
+    {
+      "name": "📚 تعلم الليزر",
+      "files": [
+        { "title": "دروس للمبتدئين", "description": "ابدأ من الصفر", "format": "LEARN", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "أخطاء شائعة وحلولها", "description": "حلول عملية للمشاكل", "format": "LEARN", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "نصائح احترافية", "description": "تطوير نتائج القص والحفر", "format": "LEARN", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "فيديوهات تعليمية", "description": "شروحات فيديو", "format": "LEARN", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
+      ]
+    },
+
+    {
+      "name": "🔔 الإشعارات",
+      "files": [
+        { "title": "تصاميم جديدة", "description": "تنبيهات عند إضافة تصاميم", "format": "NOTIF", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "تحديثات", "description": "تحديثات التطبيق", "format": "NOTIF", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "عروض خاصة", "description": "خصومات أو محتوى مدفوع", "format": "NOTIF", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
+      ]
+    },
+
+    {
+      "name": "👤 الحساب الشخصي",
+      "files": [
+        { "title": "تسجيل / تسجيل دخول", "description": "الدخول إلى حسابك", "format": "ACCOUNT", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "إدارة الملف الشخصي", "description": "تعديل الاسم والصورة", "format": "ACCOUNT", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "رفع تصاميم", "description": "إضافة تصاميم جديدة", "format": "ACCOUNT", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "الإعدادات", "description": "اللغة والإشعارات والمظهر", "format": "ACCOUNT", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
+      ]
+    },
+
+    {
+      "name": "🛠️ أقسام إضافية",
+      "files": [
+        { "title": "حاسبة تكلفة القص بالليزر", "description": "احسب تكلفة القص حسب الوقت والخامة", "format": "TOOL", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "طلب تصميم حسب الطلب", "description": "قدّم طلب لتصميم مخصص", "format": "TOOL", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "متجر (بيع تصاميم مدفوعة)", "description": "تصاميم مدفوعة وتحميل مباشر", "format": "STORE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
+        { "title": "دعم فني", "description": "تواصل مع الدعم", "format": "SUPPORT", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
+      ]
+    },
+
+    {
       "name": "ستائر",
       "files": [
         {
@@ -40,4 +232,3 @@
     }
   ]
 }
-
