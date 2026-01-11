@@ -1,234 +1,589 @@
 {
   "categories": [
     {
+      "id": "home",
       "name": "🏠 الصفحة الرئيسية",
+      "type": "system",
+      "order": 1,
+      "description": "عرض الأقسام الديناميكية: الأحدث، الأكثر تحميلًا، المميزة، والبحث.",
       "files": [
         {
+          "id": "home_latest",
           "title": "أحدث التصاميم المضافة",
-          "description": "سيتم عرض أحدث الملفات التي تمت إضافتها تلقائيًا",
+          "description": "يعرض آخر التصاميم التي تمت إضافتها اعتمادًا على تاريخ الإضافة.",
           "format": "AUTO",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
-          "downloadUrl": ""
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "SORT_BY_CREATED_AT_DESC",
+          "tags": ["الرئيسية", "الأحدث"]
         },
         {
+          "id": "home_most_downloaded",
           "title": "التصاميم الأكثر تحميلًا",
-          "description": "سيتم ترتيب الملفات حسب عدد التحميلات",
+          "description": "يعرض التصاميم الأكثر تحميلًا اعتمادًا على عدد التحميلات.",
           "format": "AUTO",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
-          "downloadUrl": ""
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "SORT_BY_DOWNLOADS_DESC",
+          "tags": ["الرئيسية", "الأكثر تحميلًا"]
         },
         {
+          "id": "home_featured",
           "title": "تصاميم مميزة (مختارة)",
-          "description": "ملفات مختارة بعناية لتظهر في قسم مميز",
+          "description": "تصاميم مختارة بعناية تظهر في قسم خاص.",
           "format": "AUTO",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
-          "downloadUrl": ""
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_IS_FEATURED_TRUE",
+          "tags": ["الرئيسية", "مميز"]
         },
         {
-          "title": "شريط بحث سريع",
-          "description": "ابحث عن تصميم بالاسم أو النوع أو الصيغة (DXF / SVG ...)",
+          "id": "home_quick_search",
+          "title": "البحث السريع",
+          "description": "ابحث بالاسم أو الصيغة أو الخامة أو نوع الاستخدام.",
           "format": "SEARCH",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
-          "downloadUrl": ""
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "OPEN_SEARCH",
+          "tags": ["بحث", "فلترة"]
         }
       ]
     },
 
     {
-      "name": "📂 أقسام التصاميم (حسب الاستخدام)",
+      "id": "by_usage",
+      "name": "📂 أقسام التصاميم حسب الاستخدام",
+      "type": "group",
+      "order": 2,
+      "description": "تصنيف سريع حسب طريقة الاستخدام.",
       "files": [
         {
+          "id": "usage_cut",
           "title": "تصاميم قص ليزر",
-          "description": "ملفات جاهزة للقص (Cut)",
+          "description": "ملفات مناسبة لعمليات القص (Cut).",
           "format": "MIX",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
-          "downloadUrl": ""
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_USAGE_TYPE_CUT",
+          "tags": ["قص", "ليزر"],
+          "usageType": "cut"
         },
         {
+          "id": "usage_engrave",
           "title": "تصاميم حفر ليزر",
-          "description": "ملفات مناسبة للحفر (Engrave)",
+          "description": "ملفات مناسبة للحفر والنقش (Engrave).",
           "format": "MIX",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
-          "downloadUrl": ""
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_USAGE_TYPE_ENGRAVE",
+          "tags": ["حفر", "نقش"],
+          "usageType": "engrave"
         },
         {
+          "id": "usage_mdf",
           "title": "تصاميم MDF",
-          "description": "ملفات مناسبة لألواح MDF",
+          "description": "ملفات مناسبة لخامة MDF.",
           "format": "MIX",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
-          "downloadUrl": ""
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_MATERIAL_TYPE_MDF",
+          "tags": ["MDF"],
+          "materialType": "mdf"
         },
         {
+          "id": "usage_wood",
           "title": "تصاميم خشب",
-          "description": "ملفات مناسبة للخشب الطبيعي",
+          "description": "ملفات مناسبة للخشب الطبيعي.",
           "format": "MIX",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
-          "downloadUrl": ""
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_MATERIAL_TYPE_WOOD",
+          "tags": ["خشب"],
+          "materialType": "wood"
         },
         {
+          "id": "usage_acrylic",
           "title": "تصاميم أكريليك",
-          "description": "ملفات مناسبة للأكريليك",
+          "description": "ملفات مناسبة للأكريليك.",
           "format": "MIX",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
-          "downloadUrl": ""
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_MATERIAL_TYPE_ACRYLIC",
+          "tags": ["أكريليك"],
+          "materialType": "acrylic"
         },
         {
+          "id": "usage_leather",
           "title": "تصاميم جلد",
-          "description": "ملفات مناسبة للجلد",
+          "description": "ملفات مناسبة للجلد الطبيعي والصناعي.",
           "format": "MIX",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
-          "downloadUrl": ""
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_MATERIAL_TYPE_LEATHER",
+          "tags": ["جلد"],
+          "materialType": "leather"
         },
         {
+          "id": "usage_metal",
           "title": "تصاميم معدن",
-          "description": "ملفات مناسبة للمعدن (بحسب قدرة الماكينة)",
+          "description": "ملفات مناسبة للمعدن حسب نوع الليزر.",
           "format": "MIX",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
-          "downloadUrl": ""
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_MATERIAL_TYPE_METAL",
+          "tags": ["معدن"],
+          "materialType": "metal"
         }
       ]
     },
 
     {
+      "id": "by_product",
       "name": "📐 الأقسام حسب نوع المنتج",
-      "files": [
-        { "title": "لوحات وزخارف", "description": "تصاميم لوحات وزخارف جدارية", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "ساعات حائط", "description": "تصاميم ساعات حائط", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "علب وصناديق", "description": "تصاميم علب وصناديق", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "ديكور منزلي", "description": "ديكورات منزلية متنوعة", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "إكسسوارات", "description": "إكسسوارات وتصاميم صغيرة", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "هدايا شخصية", "description": "تصاميم هدايا باسم/تاريخ", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "أبواب ونوافذ زخرفية", "description": "أشكال زخرفية للأبواب والنوافذ", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "مجسمات ثلاثية الأبعاد (3D)", "description": "تصاميم مجسمات وتجميع طبقات", "format": "MIX", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
-      ]
-    },
-
-    {
-      "name": "🧩 حسب نوع الملف",
-      "files": [
-        { "title": "DXF", "description": "ملفات DXF", "format": "DXF", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "SVG", "description": "ملفات SVG", "format": "SVG", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "AI", "description": "ملفات Adobe Illustrator", "format": "AI", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "CDR", "description": "ملفات CorelDRAW", "format": "CDR", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "PDF", "description": "ملفات PDF", "format": "PDF", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "ملفات جاهزة للقص", "description": "ملفات Cut جاهزة", "format": "CUT_READY", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "ملفات قابلة للتعديل", "description": "ملفات يمكن تعديلها", "format": "EDITABLE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
-      ]
-    },
-
-    {
-      "name": "⚙️ إعدادات الليزر",
-      "files": [
-        { "title": "إعدادات القص (السرعة / القوة)", "description": "جدول إعدادات القص", "format": "GUIDE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "إعدادات الحفر", "description": "جدول إعدادات الحفر", "format": "GUIDE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "إعدادات حسب نوع الماكينة", "description": "CO2 / Fiber / Diode", "format": "GUIDE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "إعدادات حسب الخامة", "description": "خشب / MDF / أكريليك / جلد / معدن", "format": "GUIDE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "تجارب المستخدمين", "description": "نتائج وتجارب فعلية", "format": "COMMUNITY", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
-      ]
-    },
-
-    {
-      "name": "⭐ المفضلة",
-      "files": [
-        { "title": "حفظ التصاميم المفضلة", "description": "إضافة/إزالة من المفضلة", "format": "FEATURE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "الرجوع إليها بسهولة", "description": "قائمة مفضلاتك", "format": "FEATURE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
-      ]
-    },
-
-    {
-      "name": "⬇️ التحميلات",
-      "files": [
-        { "title": "الملفات التي تم تحميلها", "description": "سجل التحميلات", "format": "FEATURE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "إدارة الملفات المحفوظة", "description": "حذف/تنظيم/مشاركة", "format": "FEATURE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
-      ]
-    },
-
-    {
-      "name": "👥 مجتمع المستخدمين",
-      "files": [
-        { "title": "رفع تصاميم من المستخدمين", "description": "مشاركة تصاميمك", "format": "COMMUNITY", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "تقييم التصاميم", "description": "نجوم وتقييمات", "format": "COMMUNITY", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "تعليقات وملاحظات", "description": "نقاش حول التصميم", "format": "COMMUNITY", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "طلب تصاميم خاصة", "description": "اطلب تصميم حسب الطلب", "format": "COMMUNITY", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
-      ]
-    },
-
-    {
-      "name": "📚 تعلم الليزر",
-      "files": [
-        { "title": "دروس للمبتدئين", "description": "ابدأ من الصفر", "format": "LEARN", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "أخطاء شائعة وحلولها", "description": "حلول عملية للمشاكل", "format": "LEARN", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "نصائح احترافية", "description": "تطوير نتائج القص والحفر", "format": "LEARN", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "فيديوهات تعليمية", "description": "شروحات فيديو", "format": "LEARN", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
-      ]
-    },
-
-    {
-      "name": "🔔 الإشعارات",
-      "files": [
-        { "title": "تصاميم جديدة", "description": "تنبيهات عند إضافة تصاميم", "format": "NOTIF", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "تحديثات", "description": "تحديثات التطبيق", "format": "NOTIF", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "عروض خاصة", "description": "خصومات أو محتوى مدفوع", "format": "NOTIF", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
-      ]
-    },
-
-    {
-      "name": "👤 الحساب الشخصي",
-      "files": [
-        { "title": "تسجيل / تسجيل دخول", "description": "الدخول إلى حسابك", "format": "ACCOUNT", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "إدارة الملف الشخصي", "description": "تعديل الاسم والصورة", "format": "ACCOUNT", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "رفع تصاميم", "description": "إضافة تصاميم جديدة", "format": "ACCOUNT", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "الإعدادات", "description": "اللغة والإشعارات والمظهر", "format": "ACCOUNT", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
-      ]
-    },
-
-    {
-      "name": "🛠️ أقسام إضافية",
-      "files": [
-        { "title": "حاسبة تكلفة القص بالليزر", "description": "احسب تكلفة القص حسب الوقت والخامة", "format": "TOOL", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "طلب تصميم حسب الطلب", "description": "قدّم طلب لتصميم مخصص", "format": "TOOL", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "متجر (بيع تصاميم مدفوعة)", "description": "تصاميم مدفوعة وتحميل مباشر", "format": "STORE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" },
-        { "title": "دعم فني", "description": "تواصل مع الدعم", "format": "SUPPORT", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "" }
-      ]
-    },
-
-    {
-      "name": "ستائر",
+      "type": "group",
+      "order": 3,
+      "description": "تصنيف حسب المنتج النهائي.",
       "files": [
         {
+          "id": "product_panels",
+          "title": "لوحات وزخارف",
+          "description": "لوحات وزخارف جدارية.",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_PRODUCT_TYPE_PANELS",
+          "productType": "panels",
+          "tags": ["لوحات", "زخارف"]
+        },
+        {
+          "id": "product_wall_clocks",
+          "title": "ساعات حائط",
+          "description": "تصاميم ساعات حائط.",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_PRODUCT_TYPE_WALL_CLOCKS",
+          "productType": "wall_clocks",
+          "tags": ["ساعات"]
+        },
+        {
+          "id": "product_boxes",
+          "title": "علب وصناديق",
+          "description": "علب وصناديق وتجميع.",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_PRODUCT_TYPE_BOXES",
+          "productType": "boxes",
+          "tags": ["علب", "صناديق"]
+        },
+        {
+          "id": "product_home_decor",
+          "title": "ديكور منزلي",
+          "description": "ديكورات منزلية متنوعة.",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_PRODUCT_TYPE_HOME_DECOR",
+          "productType": "home_decor",
+          "tags": ["ديكور", "منزل"]
+        },
+        {
+          "id": "product_accessories",
+          "title": "إكسسوارات",
+          "description": "إكسسوارات وتصاميم صغيرة.",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_PRODUCT_TYPE_ACCESSORIES",
+          "productType": "accessories",
+          "tags": ["إكسسوارات"]
+        },
+        {
+          "id": "product_personal_gifts",
+          "title": "هدايا شخصية",
+          "description": "هدايا بأسماء وتواريخ.",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_PRODUCT_TYPE_PERSONAL_GIFTS",
+          "productType": "personal_gifts",
+          "tags": ["هدايا", "شخصي"]
+        },
+        {
+          "id": "product_doors_windows",
+          "title": "أبواب ونوافذ زخرفية",
+          "description": "قوالب زخرفية للأبواب والنوافذ.",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_PRODUCT_TYPE_DOORS_WINDOWS",
+          "productType": "doors_windows",
+          "tags": ["أبواب", "نوافذ"]
+        },
+        {
+          "id": "product_3d",
+          "title": "مجسمات ثلاثية الأبعاد (3D)",
+          "description": "تصاميم مجسمات وتجميع طبقات.",
+          "format": "MIX",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_PRODUCT_TYPE_3D",
+          "productType": "3d",
+          "tags": ["3D", "مجسمات"]
+        }
+      ]
+    },
+
+    {
+      "id": "by_format",
+      "name": "🧩 حسب نوع الملف",
+      "type": "filters",
+      "order": 4,
+      "description": "فلترة التصاميم حسب الصيغة.",
+      "files": [
+        {
+          "id": "format_dxf",
+          "title": "DXF",
+          "description": "عرض ملفات DXF فقط.",
+          "format": "DXF",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_FORMAT_DXF",
+          "tags": ["DXF"]
+        },
+        {
+          "id": "format_svg",
+          "title": "SVG",
+          "description": "عرض ملفات SVG فقط.",
+          "format": "SVG",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_FORMAT_SVG",
+          "tags": ["SVG"]
+        },
+        {
+          "id": "format_ai",
+          "title": "AI",
+          "description": "عرض ملفات Adobe Illustrator.",
+          "format": "AI",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_FORMAT_AI",
+          "tags": ["AI"]
+        },
+        {
+          "id": "format_cdr",
+          "title": "CDR",
+          "description": "عرض ملفات CorelDRAW.",
+          "format": "CDR",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_FORMAT_CDR",
+          "tags": ["CDR"]
+        },
+        {
+          "id": "format_pdf",
+          "title": "PDF",
+          "description": "عرض ملفات PDF.",
+          "format": "PDF",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "FILTER_FORMAT_PDF",
+          "tags": ["PDF"]
+        }
+      ]
+    },
+
+    {
+      "id": "laser_settings",
+      "name": "⚙️ إعدادات الليزر",
+      "type": "content",
+      "order": 5,
+      "description": "أدلة وإعدادات مقترحة للقص والحفر حسب الجهاز والخامة.",
+      "files": [
+        {
+          "id": "settings_cut",
+          "title": "إعدادات القص (السرعة / القوة)",
+          "description": "جداول إعدادات قص مقترحة حسب الخامة.",
+          "format": "GUIDE",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "tags": ["إعدادات", "قص"]
+        },
+        {
+          "id": "settings_engrave",
+          "title": "إعدادات الحفر",
+          "description": "جداول إعدادات حفر ونقش مقترحة.",
+          "format": "GUIDE",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "tags": ["إعدادات", "حفر"]
+        },
+        {
+          "id": "settings_machine",
+          "title": "إعدادات حسب نوع الماكينة",
+          "description": "CO2 / Fiber / Diode (حسب نوع جهازك).",
+          "format": "GUIDE",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "tags": ["ماكينة", "CO2", "Fiber", "Diode"]
+        },
+        {
+          "id": "settings_material",
+          "title": "إعدادات حسب الخامة",
+          "description": "خشب / MDF / أكريليك / جلد / معدن.",
+          "format": "GUIDE",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "tags": ["خامة", "خشب", "MDF", "أكريليك", "جلد", "معدن"]
+        },
+        {
+          "id": "settings_user_tests",
+          "title": "تجارب المستخدمين",
+          "description": "نتائج وتجارب واقعية من المستخدمين.",
+          "format": "COMMUNITY",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "tags": ["مجتمع", "تجارب"]
+        }
+      ]
+    },
+
+    {
+      "id": "favorites",
+      "name": "⭐ المفضلة",
+      "type": "user",
+      "order": 6,
+      "description": "تصاميمك المحفوظة للرجوع إليها بسرعة.",
+      "files": [
+        {
+          "id": "favorites_list",
+          "title": "التصاميم المحفوظة",
+          "description": "كل ما أضفته للمفضلة يظهر هنا.",
+          "format": "AUTO",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "OPEN_FAVORITES",
+          "tags": ["مفضلة"]
+        }
+      ]
+    },
+
+    {
+      "id": "downloads",
+      "name": "⬇️ التحميلات",
+      "type": "user",
+      "order": 7,
+      "description": "إدارة الملفات التي تم تحميلها.",
+      "files": [
+        {
+          "id": "downloads_list",
+          "title": "الملفات التي تم تحميلها",
+          "description": "سجل التحميلات وإدارة الملفات المحفوظة.",
+          "format": "AUTO",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "OPEN_DOWNLOADS",
+          "tags": ["تحميلات"]
+        }
+      ]
+    },
+
+    {
+      "id": "community",
+      "name": "👥 مجتمع المستخدمين",
+      "type": "community",
+      "order": 8,
+      "description": "مشاركة وتصويت وتعليقات وطلبات خاصة.",
+      "files": [
+        { "id": "community_upload", "title": "رفع تصاميم من المستخدمين", "description": "شارك تصميمك مع المجتمع.", "format": "ACTION", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["مجتمع", "رفع"] },
+        { "id": "community_rate", "title": "تقييم التصاميم", "description": "قيّم التصاميم وساعد الآخرين.", "format": "ACTION", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["مجتمع", "تقييم"] },
+        { "id": "community_comments", "title": "تعليقات وملاحظات", "description": "ناقش وشارك ملاحظاتك.", "format": "ACTION", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["مجتمع", "تعليقات"] },
+        { "id": "community_requests", "title": "طلب تصاميم خاصة", "description": "اطلب تصميم حسب الطلب.", "format": "ACTION", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["مجتمع", "طلبات"] }
+      ]
+    },
+
+    {
+      "id": "learn",
+      "name": "📚 تعلم الليزر",
+      "type": "content",
+      "order": 9,
+      "description": "دروس ونصائح وأخطاء شائعة.",
+      "files": [
+        { "id": "learn_beginner", "title": "دروس للمبتدئين", "description": "ابدأ من الصفر خطوة بخطوة.", "format": "LEARN", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["تعليم", "مبتدئ"] },
+        { "id": "learn_mistakes", "title": "أخطاء شائعة وحلولها", "description": "حلول عملية لأكثر المشاكل انتشارًا.", "format": "LEARN", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["تعليم", "مشاكل"] },
+        { "id": "learn_tips", "title": "نصائح احترافية", "description": "تحسين الجودة وتقليل الهدر.", "format": "LEARN", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["تعليم", "احترافي"] },
+        { "id": "learn_videos", "title": "فيديوهات تعليمية", "description": "شروحات فيديو مبسطة.", "format": "LEARN", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["تعليم", "فيديو"] }
+      ]
+    },
+
+    {
+      "id": "notifications",
+      "name": "🔔 الإشعارات",
+      "type": "system",
+      "order": 10,
+      "description": "تنبيهات عن الجديد والتحديثات والعروض.",
+      "files": [
+        { "id": "notif_new", "title": "تصاميم جديدة", "description": "تنبيه عند إضافة تصاميم جديدة.", "format": "AUTO", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "isDynamic": true, "dynamicRule": "NOTIF_NEW_DESIGNS", "tags": ["إشعارات"] },
+        { "id": "notif_updates", "title": "تحديثات", "description": "تنبيه بالتحديثات والتحسينات.", "format": "AUTO", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "isDynamic": true, "dynamicRule": "NOTIF_UPDATES", "tags": ["إشعارات"] },
+        { "id": "notif_offers", "title": "عروض خاصة", "description": "تنبيهات الخصومات والمحتوى المدفوع.", "format": "AUTO", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "isDynamic": true, "dynamicRule": "NOTIF_OFFERS", "tags": ["إشعارات", "عروض"] }
+      ]
+    },
+
+    {
+      "id": "account",
+      "name": "👤 الحساب الشخصي",
+      "type": "user",
+      "order": 11,
+      "description": "تسجيل الدخول وإدارة الحساب ورفع التصاميم.",
+      "files": [
+        { "id": "account_login", "title": "تسجيل / تسجيل دخول", "description": "إنشاء حساب أو تسجيل الدخول.", "format": "ACTION", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["حساب"] },
+        { "id": "account_profile", "title": "إدارة الملف الشخصي", "description": "تعديل البيانات والصورة.", "format": "ACTION", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["حساب"] },
+        { "id": "account_upload", "title": "رفع تصاميم", "description": "إضافة تصاميمك للمكتبة/المجتمع.", "format": "ACTION", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["حساب", "رفع"] },
+        { "id": "account_settings", "title": "الإعدادات", "description": "اللغة، الإشعارات، المظهر.", "format": "ACTION", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["حساب", "إعدادات"] }
+      ]
+    },
+
+    {
+      "id": "extras",
+      "name": "🛠️ أدوات إضافية",
+      "type": "tools",
+      "order": 12,
+      "description": "ميزات اختيارية لزيادة احترافية التطبيق.",
+      "files": [
+        { "id": "tool_cost_calc", "title": "حاسبة تكلفة القص بالليزر", "description": "احسب تكلفة القص حسب الوقت والخامة.", "format": "TOOL", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["أداة", "تكلفة"] },
+        { "id": "tool_custom_request", "title": "طلب تصميم حسب الطلب", "description": "أرسل تفاصيل تصميمك المطلوب.", "format": "TOOL", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["أداة", "طلبات"] },
+        { "id": "tool_store", "title": "متجر التصاميم المدفوعة", "description": "شراء وتحميل تصاميم مدفوعة.", "format": "STORE", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["متجر"] },
+        { "id": "tool_support", "title": "الدعم الفني", "description": "تواصل مع الدعم لحل المشاكل.", "format": "SUPPORT", "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png", "downloadUrl": "", "tags": ["دعم"] }
+      ]
+    },
+
+    {
+      "id": "curtains",
+      "name": "ستائر",
+      "type": "designs",
+      "order": 20,
+      "description": "تصاميم ستائر جاهزة للقص والحفر.",
+      "files": [
+        {
+          "id": "curtain_1",
           "title": "ستارة 1",
-          "description": "ملف الستائر جاهز للتقطيع على الليزر",
+          "description": "ملف الستائر جاهز للتقطيع على الليزر.",
           "format": "DXF",
           "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/MODEL%201.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%201.dxf"
+          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%201.dxf",
+          "createdAt": "2026-01-01T10:00:00Z",
+          "downloadsCount": 12,
+          "viewsCount": 85,
+          "rating": 4.6,
+          "ratingCount": 5,
+          "isFeatured": true,
+          "isEditable": true,
+          "isReadyToCut": true,
+          "usageType": "cut",
+          "materialType": "wood",
+          "productType": "panels",
+          "tags": ["ستائر", "قص", "DXF"]
         },
         {
+          "id": "curtain_2",
           "title": "ستارة 2",
-          "description": "Wolf laser cutting art",
+          "description": "تصميم ستائر مناسب للقص بالليزر.",
           "format": "SVG",
           "imageUrl": "https://i.imgur.com/0KFBHTB.jpg",
-          "downloadUrl": "https://example.com/wolf.svg"
+          "downloadUrl": "https://example.com/wolf.svg",
+          "createdAt": "2026-01-03T10:00:00Z",
+          "downloadsCount": 7,
+          "viewsCount": 40,
+          "rating": 4.2,
+          "ratingCount": 3,
+          "isFeatured": false,
+          "isEditable": true,
+          "isReadyToCut": true,
+          "usageType": "cut",
+          "materialType": "acrylic",
+          "productType": "panels",
+          "tags": ["ستائر", "SVG", "قص"]
         }
       ]
     },
+
     {
+      "id": "decor",
       "name": "ديكورات",
+      "type": "designs",
+      "order": 21,
+      "description": "تصاميم ديكور متنوعة.",
       "files": [
         {
-          "title": "Islamic Pattern",
-          "description": "Islamic geometric laser design",
+          "id": "decor_islamic_pattern",
+          "title": "نمط زخرفي إسلامي",
+          "description": "تصميم هندسي إسلامي مناسب للقص بالليزر.",
           "format": "DXF",
           "imageUrl": "https://i.imgur.com/3ZQ3Z5B.jpg",
-          "downloadUrl": "https://example.com/islamic.dxf"
+          "downloadUrl": "https://example.com/islamic.dxf",
+          "createdAt": "2025-12-25T10:00:00Z",
+          "downloadsCount": 18,
+          "viewsCount": 120,
+          "rating": 4.8,
+          "ratingCount": 9,
+          "isFeatured": true,
+          "isEditable": true,
+          "isReadyToCut": true,
+          "usageType": "cut",
+          "materialType": "mdf",
+          "productType": "home_decor",
+          "tags": ["إسلامي", "هندسي", "DXF", "ديكور"]
         },
         {
+          "id": "decor_2",
           "title": "ديكور 2",
-          "description": "Decor laser cutting art",
+          "description": "تصميم ديكور مناسب للقص بالليزر.",
           "format": "SVG",
           "imageUrl": "https://i.imgur.com/0KFBHTB.jpg",
-          "downloadUrl": "https://example.com/wolf.svg"
+          "downloadUrl": "https://example.com/wolf.svg",
+          "createdAt": "2025-12-28T10:00:00Z",
+          "downloadsCount": 5,
+          "viewsCount": 33,
+          "rating": 4.0,
+          "ratingCount": 2,
+          "isFeatured": false,
+          "isEditable": true,
+          "isReadyToCut": true,
+          "usageType": "cut",
+          "materialType": "wood",
+          "productType": "home_decor",
+          "tags": ["ديكور", "SVG", "قص"]
         }
       ]
     }
   ]
 }
+
