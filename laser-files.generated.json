@@ -1367,12 +1367,12 @@
       "description": "تصاميم ديكور متنوعة.",
       "files": [
         {
-          "id": "decor_islamic_pattern",
-          "title": "نمط زخرفي إسلامي",
-          "description": "تصميم هندسي إسلامي مناسب للقص بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://i.imgur.com/3ZQ3Z5B.jpg",
-          "downloadUrl": "https://example.com/islamic.dxf",
+          "id": "iphone_document_scanner",
+          "title": "ماسح المستندات الخاص بجهاز iPhone",
+          "description": "تصميم ماسح المستندات الخاص بجهاز iPhone.",
+          "format": "EPS",
+          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/images/iphone_document_scanner1.jpg",
+          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/files/iphone_document_scanner1.eps",
           "createdAt": "2025-12-25T10:00:00Z",
           "downloadsCount": 18,
           "viewsCount": 120,
@@ -1382,16 +1382,17 @@
           "isEditable": true,
           "isReadyToCut": true,
           "usageType": "cut",
-          "materialType": "mdf",
+          "materialType": "WOOD,mdf",
           "productType": "home_decor",
           "tags": [
-            "إسلامي",
-            "هندسي",
-            "DXF",
+            "ايفون",
+            "تصاميم 3D",
+            "EPS",
             "ديكور"
           ]
         }
       ]
     }
   ]
+
 }
