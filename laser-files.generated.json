@@ -178,18 +178,18 @@
     },
     {
       "id": "curtains",
-      "name": "ستائر",
+      "name": "علب",
       "type": "designs",
       "order": 10,
-      "description": "تصاميم ستائر جاهزة للقص والحفر.",
+      "description": "تصاميم علب و اشكال 3 دي.",
       "files": [
         {
           "id": "curtain_1",
-          "title": "ستارة 1",
+          "title": "ماسح المستندات على جهاز iPhone 1",
           "description": "ملف جاهز للتقطيع على الليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/MODEL%201.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%201.dxf",
+          "format": "EPS",
+          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/images/iphone_document_scanner1.jpg",
+          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/files/iphone_document_scanner1.eps",
           "createdAt": "2026-01-01T10:00:00Z",
           "downloadsCount": 12,
           "viewsCount": 85,
@@ -202,9 +202,9 @@
           "materialType": "wood",
           "productType": "panels",
           "tags": [
-            "ستائر",
+            "ايفون",
             "قص",
-            "DXF"
+            "EPS"
           ]
         },
         {
@@ -1367,12 +1367,12 @@
       "description": "تصاميم ديكور متنوعة.",
       "files": [
         {
-          "id": "decor_islamic_pattern",
-          "title": "نمط زخرفي إسلامي",
-          "description": "تصميم هندسي إسلامي مناسب للقص بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://i.imgur.com/3ZQ3Z5B.jpg",
-          "downloadUrl": "https://example.com/islamic.dxf",
+          "id": "case fore dementia friendly music player - cherry",
+          "title": "مشغل موسيقى مناسب لمرضى الخرف - الكرز",
+          "description": "تصميم مشغل موسيقى مناسب لمرضى الخرف - الكرز.",
+          "format": "SVG",
+          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/images/case%20fore%20dementia%20friendly%20music%20player%20-%20cherry.jpg",
+          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/files/case%20fore%20dementia%20friendly%20music%20player%20-%20cherry.svg",
           "createdAt": "2025-12-25T10:00:00Z",
           "downloadsCount": 18,
           "viewsCount": 120,
@@ -1385,13 +1385,14 @@
           "materialType": "mdf",
           "productType": "home_decor",
           "tags": [
-            "إسلامي",
-            "هندسي",
-            "DXF",
+            "صنادق",
+            "موسيقى",
+            "SVG",
             "ديكور"
           ]
         }
       ]
     }
   ]
+
 }
