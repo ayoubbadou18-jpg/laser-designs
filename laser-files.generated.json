@@ -150,7 +150,19 @@
       "type": "tools",
       "order": 4,
       "description": "ميزات اختيارية لزيادة احترافية التطبيق.",
-      "files": [
+      "files": [,
+{
+  "id": "tool_ai_image_to_dxf",
+  "title": "تحويل صورة إلى DXF (ذكاء اصطناعي)",
+  "description": "حوّل أي صورة (PNG / JPG) إلى ملف DXF جاهز للقص بالليزر باستخدام الذكاء الاصطناعي.",
+  "format": "AI_TOOL",
+  "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+  "downloadUrl": "",
+  "isDynamic": true,
+  "dynamicRule": "OPEN_AI_IMAGE_TO_DXF",
+  "tags": ["ذكاء اصطناعي", "DXF", "تحويل", "AI"]
+}
+
         {
           "id": "tool_cost_calc",
           "title": "حاسبة تكلفة القص",
@@ -1396,4 +1408,5 @@
   ]
 
 }
+
 
