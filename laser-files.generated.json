@@ -177,19 +177,19 @@
       ]
     },
     {
-      "id": "curtains",
-      "name": "ستائر",
+      "id": "decoration",
+      "name": "ديكورات",
       "type": "designs",
       "order": 10,
-      "description": "تصاميم ستائر جاهزة للقص والحفر.",
+      "description": "تصاميم ليزر جاهزة للديكورات.",
       "files": [
         {
-          "id": "curtain_1",
-          "title": "ستارة 1",
+          "id": "case fore dementia friendly music player - cherry",
+          "title": "حافظة لجهاز تشغيل الموسيقى المناسب لمرضى الخرف - لون الكرز",
           "description": "ملف جاهز للتقطيع على الليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/MODEL%201.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%201.dxf",
+          "format": "EPS",
+          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/images/case%20fore%20dementia%20friendly%20music%20player%20-%20cherry.jpg",
+          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/files/case%20fore%20dementia%20friendly%20music%20player%20-%20cherry.svg",
           "createdAt": "2026-01-01T10:00:00Z",
           "downloadsCount": 12,
           "viewsCount": 85,
@@ -1396,3 +1396,4 @@
   ]
 
 }
+
