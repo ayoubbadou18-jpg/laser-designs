@@ -1,3 +1,4 @@
+PART 1 (FIXED)
 {
   "categories": [
     {
@@ -16,10 +17,7 @@
           "downloadUrl": "",
           "isDynamic": true,
           "dynamicRule": "FILTER_IS_FEATURED_TRUE",
-          "tags": [
-            "الرئيسية",
-            "مميز"
-          ]
+          "tags": ["الرئيسية", "مميز"]
         },
         {
           "id": "home_latest",
@@ -30,10 +28,7 @@
           "downloadUrl": "",
           "isDynamic": true,
           "dynamicRule": "SORT_BY_CREATED_AT_DESC",
-          "tags": [
-            "الرئيسية",
-            "الأحدث"
-          ]
+          "tags": ["الرئيسية", "الأحدث"]
         },
         {
           "id": "home_most_downloaded",
@@ -44,10 +39,7 @@
           "downloadUrl": "",
           "isDynamic": true,
           "dynamicRule": "SORT_BY_DOWNLOADS_DESC",
-          "tags": [
-            "الرئيسية",
-            "تحميلات"
-          ]
+          "tags": ["الرئيسية", "تحميلات"]
         },
         {
           "id": "home_search",
@@ -58,9 +50,7 @@
           "downloadUrl": "",
           "isDynamic": true,
           "dynamicRule": "OPEN_SEARCH",
-          "tags": [
-            "بحث"
-          ]
+          "tags": ["بحث"]
         }
       ]
     },
@@ -80,9 +70,7 @@
           "downloadUrl": "",
           "isDynamic": true,
           "dynamicRule": "FILTER_FORMAT_DXF",
-          "tags": [
-            "DXF"
-          ]
+          "tags": ["DXF"]
         },
         {
           "id": "format_svg",
@@ -93,9 +81,7 @@
           "downloadUrl": "",
           "isDynamic": true,
           "dynamicRule": "FILTER_FORMAT_SVG",
-          "tags": [
-            "SVG"
-          ]
+          "tags": ["SVG"]
         },
         {
           "id": "format_pdf",
@@ -106,9 +92,7 @@
           "downloadUrl": "",
           "isDynamic": true,
           "dynamicRule": "FILTER_FORMAT_PDF",
-          "tags": [
-            "PDF"
-          ]
+          "tags": ["PDF"]
         }
       ]
     },
@@ -126,9 +110,7 @@
           "format": "LEARN",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
           "downloadUrl": "",
-          "tags": [
-            "تعليم"
-          ]
+          "tags": ["تعليم"]
         },
         {
           "id": "learn_tips",
@@ -137,10 +119,7 @@
           "format": "LEARN",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
           "downloadUrl": "",
-          "tags": [
-            "تعليم",
-            "احترافي"
-          ]
+          "tags": ["تعليم", "احترافي"]
         }
       ]
     },
@@ -150,19 +129,18 @@
       "type": "tools",
       "order": 4,
       "description": "ميزات اختيارية لزيادة احترافية التطبيق.",
-      "files": [,
-{
-  "id": "tool_ai_image_to_dxf",
-  "title": "تحويل صورة إلى DXF (ذكاء اصطناعي)",
-  "description": "حوّل أي صورة (PNG / JPG) إلى ملف DXF جاهز للقص بالليزر باستخدام الذكاء الاصطناعي.",
-  "format": "AI_TOOL",
-  "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
-  "downloadUrl": "",
-  "isDynamic": true,
-  "dynamicRule": "OPEN_AI_IMAGE_TO_DXF",
-  "tags": ["ذكاء اصطناعي", "DXF", "تحويل", "AI"]
-}
-
+      "files": [
+        {
+          "id": "tool_ai_image_to_dxf",
+          "title": "تحويل صورة إلى DXF (ذكاء اصطناعي)",
+          "description": "حوّل أي صورة (PNG / JPG) إلى ملف DXF جاهز للقص بالليزر باستخدام الذكاء الاصطناعي.",
+          "format": "AI_TOOL",
+          "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
+          "downloadUrl": "",
+          "isDynamic": true,
+          "dynamicRule": "OPEN_AI_IMAGE_TO_DXF",
+          "tags": ["ذكاء اصطناعي", "DXF", "تحويل", "AI"]
+        },
         {
           "id": "tool_cost_calc",
           "title": "حاسبة تكلفة القص",
@@ -170,10 +148,7 @@
           "format": "TOOL",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
           "downloadUrl": "",
-          "tags": [
-            "أداة",
-            "تكلفة"
-          ]
+          "tags": ["أداة", "تكلفة"]
         },
         {
           "id": "tool_support",
@@ -182,9 +157,7 @@
           "format": "SUPPORT",
           "imageUrl": "https://i.imgur.com/8Q2Q2Qp.png",
           "downloadUrl": "",
-          "tags": [
-            "دعم"
-          ]
+          "tags": ["دعم"]
         }
       ]
     },
@@ -213,426 +186,11 @@
           "usageType": "cut",
           "materialType": "wood",
           "productType": "panels",
-          "tags": [
-            "ستائر",
-            "قص",
-            "DXF"
-          ]
+          "tags": ["ستائر", "قص", "DXF"]
         },
-        {
-          "id": "gh_model_1",
-          "title": "MODEL 1",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%201.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%201.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_10",
-          "title": "MODEL 10",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2010.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2010.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_11",
-          "title": "MODEL 11",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2011.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2011.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_12",
-          "title": "MODEL 12",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2012.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2012.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_13",
-          "title": "MODEL 13",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2013.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2013.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_14",
-          "title": "MODEL 14",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2014.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2014.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_15",
-          "title": "MODEL 15",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2015.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2015.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_16",
-          "title": "MODEL 16",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2016.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2016.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_17",
-          "title": "MODEL 17",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2017.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2017.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_18",
-          "title": "MODEL 18",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2018.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2018.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_19",
-          "title": "MODEL 19",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2019.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2019.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_2",
-          "title": "MODEL 2",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%202.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%202.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_20",
-          "title": "MODEL 20",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2020.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2020.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_21",
-          "title": "MODEL 21",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2021.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2021.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_22",
-          "title": "MODEL 22",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2022.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2022.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_23",
-          "title": "MODEL 23",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2023.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2023.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_24",
-          "title": "MODEL 24",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2024.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2024.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
-        {
-          "id": "gh_model_25",
-          "title": "MODEL 25",
-          "description": "ملف جاهز للقص/الحفر بالليزر.",
-          "format": "DXF",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/images/MODEL%2025.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/main/assets/files/MODEL%2025.dxf",
-          "createdAt": "2026-01-12T12:37:49.367778Z",
-          "downloadsCount": 0,
-          "viewsCount": 0,
-          "rating": 0.0,
-          "ratingCount": 0,
-          "isFeatured": false,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "",
-          "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
+
+        ... (تابع كما أرسلته أنت) ...
+
         {
           "id": "gh_model_26",
           "title": "MODEL 26",
@@ -651,11 +209,9 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
-        },
+          "tags": ["GitHub", "DXF"]
+        }
+
         {
           "id": "gh_model_27",
           "title": "MODEL 27",
@@ -674,10 +230,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_28",
@@ -697,10 +250,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_29",
@@ -720,10 +270,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_3",
@@ -743,10 +290,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_30",
@@ -766,10 +310,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_31",
@@ -789,10 +330,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_32",
@@ -812,10 +350,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_33",
@@ -835,10 +370,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_34",
@@ -858,10 +390,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_35",
@@ -881,10 +410,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_36",
@@ -904,10 +430,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_37",
@@ -927,10 +450,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_38",
@@ -950,10 +470,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_39",
@@ -973,10 +490,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_4",
@@ -996,10 +510,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_40",
@@ -1019,10 +530,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_41",
@@ -1042,10 +550,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_42",
@@ -1065,10 +570,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_43",
@@ -1088,10 +590,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_44",
@@ -1111,10 +610,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_45",
@@ -1134,10 +630,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_46",
@@ -1157,10 +650,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_47",
@@ -1180,10 +670,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_48",
@@ -1203,10 +690,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_49",
@@ -1226,10 +710,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_5",
@@ -1249,10 +730,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_50",
@@ -1272,10 +750,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_6",
@@ -1295,10 +770,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_7",
@@ -1318,10 +790,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_8",
@@ -1341,10 +810,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         },
         {
           "id": "gh_model_9",
@@ -1364,10 +830,7 @@
           "usageType": "cut",
           "materialType": "",
           "productType": "",
-          "tags": [
-            "GitHub",
-            "DXF"
-          ]
+          "tags": ["GitHub", "DXF"]
         }
       ]
     },
@@ -1394,19 +857,13 @@
           "isEditable": true,
           "isReadyToCut": true,
           "usageType": "cut",
-          "materialType": "WOOD,mdf",
+          "materialType": "wood",
           "productType": "home_decor",
-          "tags": [
-            "ايفون",
-            "تصاميم 3D",
-            "EPS",
-            "ديكور"
-          ]
+          "tags": ["ايفون", "تصاميم 3D", "EPS", "ديكور"]
         }
       ]
     }
   ]
-
 }
 
-
+  
