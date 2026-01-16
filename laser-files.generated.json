@@ -221,11 +221,11 @@
       ]
     },
     {
-      "id": "curtains",
+      "id": "boxes",
       "name": "علب",
       "type": "designs",
       "order": 10,
-      "description": "تصاميم علب و اشكال 3 دي.",
+      "description": "تصاميم علب متنوعة.",
       "files": [
         {
           "id": "curtain_1",
@@ -251,6 +251,40 @@
             "EPS"
           ]
         },
+        {
+          "id": "case fore dementia friendly music player - cherry",
+          "title": "مشغل موسيقى مناسب لمرضى الخرف - الكرز",
+          "description": "تصميم مشغل موسيقى مناسب لمرضى الخرف - الكرز.",
+          "format": "SVG",
+          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/images/case%20fore%20dementia%20friendly%20music%20player%20-%20cherry.jpg",
+          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/files/case%20fore%20dementia%20friendly%20music%20player%20-%20cherry.svg",
+          "createdAt": "2025-12-25T10:00:00Z",
+          "downloadsCount": 561,
+          "viewsCount": 5139,
+          "rating": 4.69,
+          "ratingCount": 233,
+          "isFeatured": true,
+          "isEditable": true,
+          "isReadyToCut": true,
+          "usageType": "cut",
+          "materialType": "mdf",
+          "productType": "home_decor",
+          "tags": [
+            "صنادق",
+            "موسيقى",
+            "SVG",
+            "ديكور"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curtains",
+      "name": "ستائر",
+      "type": "designs",
+      "order": 11,
+      "description": "تصاميم ستائر.",
+      "files": [
         {
           "id": "gh_model_1",
           "title": "MODEL 1",
@@ -1400,33 +1434,40 @@
             "GitHub",
             "DXF"
           ]
-        },
-        {
-          "id": "case fore dementia friendly music player - cherry",
-          "title": "مشغل موسيقى مناسب لمرضى الخرف - الكرز",
-          "description": "تصميم مشغل موسيقى مناسب لمرضى الخرف - الكرز.",
-          "format": "SVG",
-          "imageUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/images/case%20fore%20dementia%20friendly%20music%20player%20-%20cherry.jpg",
-          "downloadUrl": "https://raw.githubusercontent.com/ayoubbadou18-jpg/laser-designs/refs/heads/main/assets/files/case%20fore%20dementia%20friendly%20music%20player%20-%20cherry.svg",
-          "createdAt": "2025-12-25T10:00:00Z",
-          "downloadsCount": 561,
-          "viewsCount": 5139,
-          "rating": 4.69,
-          "ratingCount": 233,
-          "isFeatured": true,
-          "isEditable": true,
-          "isReadyToCut": true,
-          "usageType": "cut",
-          "materialType": "mdf",
-          "productType": "home_decor",
-          "tags": [
-            "صنادق",
-            "موسيقى",
-            "SVG",
-            "ديكور"
-          ]
         }
       ]
+    },
+    {
+      "id": "decor",
+      "name": "ديكورات",
+      "type": "designs",
+      "order": 12,
+      "description": "تصاميم ديكورات متنوعة.",
+      "files": []
+    },
+    {
+      "id": "3d",
+      "name": "تصاميم 3D",
+      "type": "designs",
+      "order": 13,
+      "description": "تصاميم ثلاثية الأبعاد.",
+      "files": []
+    },
+    {
+      "id": "salons",
+      "name": "صالونات",
+      "type": "designs",
+      "order": 14,
+      "description": "تصاميم للصالونات.",
+      "files": []
+    },
+    {
+      "id": "ornaments",
+      "name": "زخارف",
+      "type": "designs",
+      "order": 15,
+      "description": "تصاميم زخارف متنوعة.",
+      "files": []
     }
   ]
 }
