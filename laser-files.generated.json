@@ -1400,16 +1400,7 @@
             "GitHub",
             "DXF"
           ]
-        }
-      ]
-    },
-    {
-      "id": "decor",
-      "name": "ديكورات",
-      "type": "designs",
-      "order": 11,
-      "description": "تصاميم ديكور متنوعة.",
-      "files": [
+        },
         {
           "id": "case fore dementia friendly music player - cherry",
           "title": "مشغل موسيقى مناسب لمرضى الخرف - الكرز",
