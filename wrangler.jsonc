@@ -1,0 +1,11 @@
+{
+  "name": "laser-designs",
+  "main": "src/index.js",
+  "compatibility_date": "2026-01-30",
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "laser-assets"
+    }
+  ]
+}
